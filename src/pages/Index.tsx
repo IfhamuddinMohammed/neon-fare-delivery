@@ -60,7 +60,8 @@ const Homepage: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-background">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background" />
+        <img src={heroImage} alt="Fresh groceries" className="absolute inset-0 w-full h-full object-cover opacity-30" />
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
