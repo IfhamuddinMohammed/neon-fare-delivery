@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import heroImage from '@/assets/hero-grocery.jpg';
 import { ChevronRight, Truck, BadgePercent, Leaf, Gift, Star } from 'lucide-react';
 import ProductCard from '@/components/ProductCard';
 import { sampleCategories, sampleProducts } from '@/data/sampleData';
